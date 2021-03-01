@@ -3,13 +3,33 @@
 <head>
 <title> Frederiks website </title>
 <link rel="icon" href="assets/icon.png">
+<style>
+    body {
+        padding: 30px;
+        background-color: whitesmoke;
+        color: black;
+        font-size: 18px;
+    }
+
+    .darkmode {
+        background-color: black;
+        color: white;
+    }
+</style>
 </head> 
 <body>
-<h1 style="font-family: Arial, Helvetica, sans-serif;"> You like cock and ball torture, huh? :)</h1>
+<h1 style="font-family: Arial, Helvetica, sans-serif;"> So you like cock and ball torture, huh? :)</h1>
 <pre style="font-family: Arial, Helvetica, sans-serif;"> Well suit yourself</pre>
 <a href="https://en.wikipedia.org/wiki/Cock_and_ball_torture">Wikipedia article</a>
 <br>
 <img src="assets/cock.png" alt="this is a nice cock" style="width:250px; height:250px">
 <img src="assets/balls.png" alt="this is funny balls" style="width:250px; height:200px">
+<br>
+<button onclick="darkmodeToggle()">Toggle dark mode</button>
+<script>
+function darkmodeToggle() {
+    document.body.classList.toggle("darkmode");
+}
+</script>
 </body>
 </html>
