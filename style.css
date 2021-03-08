@@ -1,0 +1,38 @@
+
+body {
+    padding: 30px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 18px;
+}
+
+.darkmode {
+    background-color: black;
+    color: white;
+    
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+a:link, a:visited {
+    background-color: darkgray;
+    color: black;
+    padding: 10px 10px;
+    text-align:center;
+    text-decoration: none;
+    outline: black solid 2px;
+}
+
+a:hover {
+    background-color: #404040;
+    color: white;
+}
+
+.pics {
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
