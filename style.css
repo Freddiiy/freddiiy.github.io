@@ -28,6 +28,7 @@ body {
     text-align: center;
     animation-name: opening;
     animation-duration: 2s;
+    animation-timing-function: ease;
     top: -5%;
     left: 50%
 }
