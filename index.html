@@ -2,6 +2,9 @@
 <html>
 <head>
 <title> Frederiks website </title>
+<style id="trans">
+
+</style>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="assets/icon.png">
 </head> 
@@ -22,6 +25,7 @@
 <script>
 function darkmodeToggle() {
     document.body.classList.toggle("darkmode");
+    document.getElementById("trans").innerHTML = "transition: background-color 2s;"
 }
 </script>
 </body>
