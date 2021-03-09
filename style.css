@@ -4,8 +4,7 @@ body {
     background-color: whitesmoke;
     color: black;
     font-size: 18px;
-    transition-property: background-color;
-    transition-duration: 2s;
+    transition: 0;
 }
 
 .darkmode {
