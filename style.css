@@ -23,12 +23,12 @@ body {
 }
 .opening {
     color: black;
-    font-size: 1px;
+    font-size: 0px;
     margin: auto;
     text-align: center;
     animation-name: opening;
     animation-duration: 2s;
-    top: 5%;
+    top: -5%;
     left: 50%
 }
 
